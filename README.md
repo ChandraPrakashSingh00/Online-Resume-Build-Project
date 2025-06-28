@@ -18,7 +18,7 @@ A responsive, modern, and beginner-friendly **Resume Builder** web app made with
 
 ## 📸 Demo
 
-👉 [Live Demo](https://your-demo-link.netlify.app) <!-- Replace with Netlify or GitHub Pages link -->
+👉 [Live Demo](https://chandraprakashsingh00.github.io/Online-Resume-Build-Project/) <!-- Replace with Netlify or GitHub Pages link -->
 
 ---
 
