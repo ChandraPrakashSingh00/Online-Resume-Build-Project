@@ -2,7 +2,8 @@
 
 A responsive, modern, and beginner-friendly **Resume Builder** web app made with **HTML, CSS, and JavaScript**. Create beautiful resumes with live preview, dark mode support, and PDF download in one click.
 
-![Screenshot](https://your-screenshot-url.com/demo.png) <!-- Add your own screenshot URL -->
+![Screenshot](![Resume Build Images](https://github.com/user-attachments/assets/933147f4-6644-48d2-baec-9b9d87946170)
+) <!-- Add your own screenshot URL -->
 
 ## 🚀 Features
 
