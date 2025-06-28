@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Online Resume Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Online Resume Builder</h1>
+
+    <div class="toolbar">
+      <label class="theme-toggle">
+        <input type="checkbox" id="themeSwitcher"> Dark Mode
+      </label>
+      <button id="downloadBtn">Download Resume (PDF)</button>
+    </div>
+
+    <div class="builder">
+      <form id="resumeForm">
+        <label>Full Name</label>
+        <input type="text" id="name" required />
+        <label>Email</label>
+        <input type="email" id="email" required />
+        <label>Phone</label>
+        <input type="text" id="phone" required />
+        <label>Summary</label>
+        <textarea id="summary" rows="3"></textarea>
+        <label>Skills (comma separated)</label>
+        <input type="text" id="skills" />
+        <label>Experience</label>
+        <textarea id="experience" rows="3"></textarea>
+        <label>Education</label>
+        <textarea id="education" rows="3"></textarea>
+        <label>Upload Profile Picture</label>
+        <input type="file" id="profilePic" accept="image/*" />
+        <button type="submit">Generate Resume</button>
+      </form>
+
+      <div class="preview" id="preview">
+        <h2>Live Resume Preview</h2>
+        <div id="photoContainer"></div>
+        <div id="resumeOutput"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
